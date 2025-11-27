@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 
-li {
+section li {
     width: 280px;
     height: 155px;
     border: 2px solid var(--gray-500);
