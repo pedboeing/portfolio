@@ -2,22 +2,6 @@ main {
     background-image: url(../assets/Background_Intro.png);
     background-size: 1000%;
     padding-top: 72px;
-
-    span {
-        padding-block: 72px 8px;
-        font: var(--subtitle);
-        color: var(--red);
-    }
-
-    h2 {
-        font: var(--title-md);
-        color: var(--gray-100);
-        margin-bottom: 56px;
-    }
-}
-
-.title {
-    text-align: center;
 }
 
 .grid {
