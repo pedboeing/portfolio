@@ -13,10 +13,12 @@ main {
     gap: 24px;
     padding-bottom: 144px;
 
-    div {
+    a {
         background-color: var(--gray-400);
         padding: 8px;
         border-radius: 12px;
+        transition: 0.3s ease-in-out;
+        text-decoration: none;
     }
 
     img {
@@ -39,4 +41,14 @@ main {
         margin-bottom: 16px;
         padding-inline: 4px;
     }
+}
+
+.grid a img {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+}
+
+.grid a:hover {
+    background-color: var(--gray-600);
 }

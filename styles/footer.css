@@ -25,13 +25,14 @@ footer {
     text-decoration: none;
     font: var(--text-md);
     color: var(--gray-200);
+    transition: 0.3s ease-in-out;
 }
 
 .contacts p {
     margin-left: 12px;
 }
 
-a img {
+.footer a img {
     max-width: 28px;
     max-height: 28px;
     object-fit: cover;
@@ -42,4 +43,21 @@ a img {
     right: 20px;
     max-width: 20px;
     max-height: 20px;
+}
+
+.email {
+    display: flex;
+    background-color: var(--gray-400);
+    width: 400px;
+    height: 68px;
+    border-radius: 8px;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    font: var(--text-md);
+    color: var(--gray-200);
+}
+
+.contacts a:hover {
+    background-color: var(--gray-600);
 }
